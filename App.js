@@ -136,7 +136,7 @@ export default function App() {
 
  const shuffleCards = () => {
    let newCards = [];
-   if(level === 1) {
+   if(level === 1) { 
      newCards = [...level1Cards];
    } else if(level === 2) {
      newCards = [...level2Cards];
